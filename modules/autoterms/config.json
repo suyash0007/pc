@@ -1,0 +1,13 @@
+{
+	"firstDelay": 400,
+	"delay": 150,
+	"timeout": 1000,
+	"terminals": {
+		"numbers": true,
+		"colors": true,
+		"startswith": true,
+		"rubix": true,
+		"redgreen": true
+	},
+	"notP3": false
+}
