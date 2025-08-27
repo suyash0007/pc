@@ -1,6 +1,6 @@
 {
 	"host": "0.0.0.0",
 	"port": 25565,
-	"motd": "                §aHypixel Network §c[1.8-1.21]§r     §6§lDUELS UPDATE §8§l- §c§lBED WARS/SPLEEF DUELS",
+	"motd": "§aHypixel Network §c[1.8-1.21]§r §6§lDUELS UPDATE §8§l- §c§lBED WARS/SPLEEF DUELS ",
 	"whitelist": false
 }
