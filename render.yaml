@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: phoenixclient
+    env: docker
+    plan: starter # or free, but free will sleep
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
+    envVars: []
+    disk: null
+    # This is the important part:
+    ports:
+      - port: 25565
+        protocol: tcp
+    healthCheckPath: "" # disable HTTP health check
