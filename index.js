@@ -1,5 +1,6 @@
 import fs from "fs/promises";
 import mc from "minecraft-protocol";
+import chat from "./utils/chat.js";
 import config from "./config.json" with { type: "json" };
 
 const modules = [];
